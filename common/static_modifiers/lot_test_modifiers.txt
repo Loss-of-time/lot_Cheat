@@ -1,0 +1,8 @@
+pop_growth_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources_2.dds"
+	icon_frame = 2
+	pop_resettlement_cost_mult = -0.99
+	pop_growth_speed = 10
+	planet_pop_assembly_mult = 10
+	planet_pop_assembly_organic_add = 10
+}

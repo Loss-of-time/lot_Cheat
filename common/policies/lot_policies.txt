@@ -1,0 +1,108 @@
+cheat_build_speed = {
+	allow = {
+		is_ai = no
+	}
+	option = {
+		name = "cheat_build_speed_one"
+		ai_weight = {
+			weight = 1
+		}
+	}
+	option = {
+		name = "cheat_build_speed_ten"
+		modifier = {
+			planet_building_build_speed_mult = 10
+			planet_clear_blocker_time_mult = -0.9
+			megastructure_build_speed_mult = 10
+			planet_decision_enact_speed_mult = 10
+			planet_colony_development_speed_mult = 10
+			terraform_speed_mult = 10
+		}
+		ai_weight = {
+			weight = 0
+		}
+	}
+}
+
+cheat_pop_growth = {
+	allow = {
+		is_ai = no
+	}
+	option = {
+		name = "cheat_pop_growth_one"
+		ai_weight = {
+			weight = 1
+		}
+	}
+	option = {
+		name = "cheat_pop_growth_ten"
+		modifier = {
+			pop_resettlement_cost_mult = -0.99
+			pop_growth_speed = 10
+			planet_pop_assembly_mult = 10
+			planet_pop_assembly_organic_add = 10
+		}
+		ai_weight = {
+			weight = 0
+		}
+	}
+	option = {
+		name = "cheat_pop_growth_hundred"
+		modifier = {
+			pop_resettlement_cost_mult = -0.99
+			pop_growth_speed = 100
+			planet_pop_assembly_mult = 100
+			planet_pop_assembly_organic_add = 100
+		}
+		ai_weight = {
+			weight = 0
+		}
+	}
+}
+
+cheat_ship_build = {
+	allow = {
+		is_ai = no
+	}
+	option = {
+		name = "cheat_ship_build_one"
+		ai_weight = {
+			weight = 1
+		}
+	}
+	option = {
+		name = "cheat_ship_build_ten"
+		modifier = {
+			starbase_shipyard_build_cost_mult = -0.9
+			starbase_shipyard_build_speed_mult = 10
+			planet_army_build_speed_mult = 10
+		}
+		ai_weight = {
+			weight = 0
+		}
+	}
+}
+
+add_planet_biulding_slots = {
+	allow = {
+		is_ai = no
+	}
+	option = {
+		name = "add_planet_biulding_slots_1"
+		modifier = {
+			planet_max_buildings_add = 0
+		}
+	}
+	option = {
+		name = "add_planet_biulding_slots_2"
+		modifier = {
+			planet_max_buildings_add = 10
+		}
+	}
+	option = {
+		name = "add_planet_biulding_slots_3"
+		modifier = {
+			planet_max_buildings_add = 100
+		}
+	}
+}

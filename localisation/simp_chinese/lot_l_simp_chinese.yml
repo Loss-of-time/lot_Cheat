@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+
+ #“§[色彩代码]”是指从这里开始转化颜色
+ #例如“§W这是红色！”效果就是：这是红色！
+ #[色彩代码] B蓝 E青 G绿 H橙 L棕 M紫 P亮红 R红 S深橙 T灰 W白 Y黄 #默认
+
+
+################
+# 政策
+################
+
+ policy_cheat_build_speed:0 "作弊：建造速度"
+ cheat_build_speed_one:0 "默认"
+ cheat_build_speed_ten:0 "十倍"
+
+ policy_cheat_pop_growth:0 "作弊：人口增长"
+ cheat_pop_growth_one:0 "默认"
+ cheat_pop_growth_ten:0 "十倍"
+ cheat_pop_growth_hundred:0 "百倍"
+
+ policy_cheat_ship_build:0 "作弊：舰船建造"
+ cheat_ship_build_one:0 "默认"
+ cheat_ship_build_ten:0 "十倍"
+
+ policy_add_planet_biulding_slots:0 "作弊：建筑槽位"
+ add_planet_biulding_slots_1:0 "默认"
+ add_planet_biulding_slots_2:0 "十个"
+ add_planet_biulding_slots_3:0 "100个"
+ #描述
+ cheat_build_speed_one_desc:0 "默认 \n\n"
+ cheat_build_speed_ten_desc:0 "十倍 \n\n"
+ add_planet_biulding_slots_1_desc:0 "如你所见 \n\n"
+ add_planet_biulding_slots_2_desc:0 "如你所见 \n\n"
+ add_planet_biulding_slots_3_desc:0 "如你所见 \n\n"
+ policy_cheat_build_speed_desc:0 "REPLACE_ME"
+ policy_cheat_pop_growth_desc:0 "REPLACE_ME"
+ cheat_pop_growth_one_desc:0 "REPLACE_ME"
+ cheat_pop_growth_ten_desc:0 "REPLACE_ME"
+ cheat_pop_growth_hundred_desc:0 "REPLACE_ME"
+ policy_cheat_ship_build_desc:0 "REPLACE_ME"
+ cheat_ship_build_one_desc:0 "REPLACE_ME"
+ cheat_ship_build_ten_desc:0 "REPLACE_ME"
+ policy_add_planet_biulding_slots_desc:0 "REPLACE_ME"
+
+################
+# 事件 
+################
+
+ test_event.0.name:0 "好鵺"
+ test_event.0.desc:0 "测试 \n\n"
+ test_event.0.a:0 "此事平淡无奇"
+ test_event.0.b:0 "不理睬" 
+
+################
+# 修饰器 
+################
+
+ test_modifier:0 "测试修正"
+ pop_growth_modifier:0 "人口增长"
+
+################
+# 决议 
+################
+ decision_pop_growth:0 "人口增长"
+ decision_pop_growth_desc:0 "人口增长"
+ pop_growth_modifier:0 "人口增长" 
+ pop_growth_modifier_desc:0 "人口增长"
+ decision_remove_pop_growth:0 "移除人口增长"
+ decision_remove_pop_growth_desc:0 "移除人口增长"
+
+
+
+
