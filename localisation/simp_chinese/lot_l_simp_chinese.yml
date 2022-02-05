@@ -42,14 +42,6 @@
  cheat_ship_build_ten_desc:0 "REPLACE_ME"
  policy_add_planet_biulding_slots_desc:0 "REPLACE_ME"
 
-################
-# 事件 
-################
-
- test_event.0.name:0 "好鵺"
- test_event.0.desc:0 "测试 \n\n"
- test_event.0.a:0 "此事平淡无奇"
- test_event.0.b:0 "不理睬" 
 
 ################
 # 修饰器 
