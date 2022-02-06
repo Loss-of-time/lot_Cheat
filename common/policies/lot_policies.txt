@@ -12,7 +12,7 @@ cheat_build_speed = {
 		name = "cheat_build_speed_ten"
 		modifier = {
 			planet_building_build_speed_mult = 10
-			planet_clear_blocker_time_mult = -0.9
+			planet_clear_blocker_speed_mult = 10
 			megastructure_build_speed_mult = 10
 			planet_decision_enact_speed_mult = 10
 			planet_colony_development_speed_mult = 10
@@ -20,6 +20,7 @@ cheat_build_speed = {
 			starbase_upgrade_speed_mult = 10
 			starbase_building_build_speed_mult = 10
 			starbase_module_build_speed_mult = 10
+			shipsize_mining_station_build_speed_mult = 10
 		}
 		ai_weight = {
 			weight = 0
@@ -78,7 +79,9 @@ cheat_ship_build = {
 		modifier = {
 			starbase_shipyard_build_cost_mult = -0.9
 			starbase_shipyard_build_speed_mult = 10
+			shipsize_military_station_small_build_speed_mult = 10
 			planet_army_build_speed_mult = 10
+			ship_jumpdrive_cooldown_mult = 0.01
 		}
 		ai_weight = {
 			weight = 0

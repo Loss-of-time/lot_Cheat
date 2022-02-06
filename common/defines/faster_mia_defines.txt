@@ -1,0 +1,4 @@
+NGameplay = {
+	REINFORCE_MIA_TIME_MULT = 0.1 # Used to customize the duration of reinforcement times. Expected to be > 0
+	MIA_TIME_MULT = 0.1
+}
