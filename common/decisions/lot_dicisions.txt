@@ -32,3 +32,36 @@ decision_remove_pop_growth = {
 		weight = 0
 	}
 }
+
+decision_creat_pop = {
+	owned_planets_only = yes
+	sound = event_default_02
+	allow = {
+	}
+	effect = {
+		create_pop = {
+			species = owner_species
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_creat_ten__pop = {
+	owned_planets_only = yes
+	sound = event_default_02
+	allow = {
+	}
+	effect = {
+		while = {
+			count = 10
+			create_pop = {
+				species = owner_species
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -81,7 +81,7 @@ cheat_ship_build = {
 			starbase_shipyard_build_speed_mult = 10
 			shipsize_military_station_small_build_speed_mult = 10
 			planet_army_build_speed_mult = 10
-			ship_jumpdrive_cooldown_mult = 0.01
+			ship_jumpdrive_cooldown_mult = -0.99
 		}
 		ai_weight = {
 			weight = 0

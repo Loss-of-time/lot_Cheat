@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 
  #“§[色彩代码]”是指从这里开始转化颜色
- #例如“§W这是红色！”效果就是：这是红色！
+ #例如“§W这是红色！”效果就是:这是红色！
  #[色彩代码] B蓝 E青 G绿 H橙 L棕 M紫 P亮红 R红 S深橙 T灰 W白 Y黄 #默认
 
 
@@ -9,20 +9,20 @@
 # 政策
 ################
 
- policy_cheat_build_speed:0 "作弊：建造速度"
+ policy_cheat_build_speed:0 "作弊:建造速度"
  cheat_build_speed_one:0 "默认"
  cheat_build_speed_ten:0 "十倍"
 
- policy_cheat_pop_growth:0 "作弊：人口增长"
+ policy_cheat_pop_growth:0 "作弊:人口增长"
  cheat_pop_growth_one:0 "默认"
  cheat_pop_growth_ten:0 "十倍"
  cheat_pop_growth_hundred:0 "百倍"
 
- policy_cheat_ship_build:0 "作弊：舰船建造"
+ policy_cheat_ship_build:0 "作弊:舰船建造"
  cheat_ship_build_one:0 "默认"
  cheat_ship_build_ten:0 "十倍"
 
- policy_add_planet_biulding_slots:0 "作弊：建筑槽位"
+ policy_add_planet_biulding_slots:0 "作弊:建筑槽位"
  add_planet_biulding_slots_1:0 "默认"
  add_planet_biulding_slots_2:0 "十个"
  add_planet_biulding_slots_3:0 "100个"
@@ -59,6 +59,10 @@
  pop_growth_modifier_desc:0 "人口增长"
  decision_remove_pop_growth:0 "移除人口增长"
  decision_remove_pop_growth_desc:0 "移除人口增长"
+ decision_creat_pop:0 "创建一个人口"
+ decision_creat_pop_desc:0 "创建一个人口"
+ decision_creat_ten_pop:0 "创建十个人口"
+ decision_creat_ten_pop_desc:0 "创建十个人口"
 
 
 
