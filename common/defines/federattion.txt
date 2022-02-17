@@ -1,0 +1,6 @@
+NGameplay = {		
+	FEDERATION_COHESION_TO_XP			= 0.5	# cohesion to xp conversion
+	FEDERATION_COHESION_RANGE			= 300
+FEDERATION_ENVOY_BASE_EFFECT		= 3.0	# envoys base effect on cohesion
+
+}

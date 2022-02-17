@@ -48,7 +48,7 @@ decision_creat_pop = {
 	}
 }
 
-decision_creat_ten__pop = {
+decision_creat_ten_pop = {
 	owned_planets_only = yes
 	sound = event_default_02
 	allow = {
