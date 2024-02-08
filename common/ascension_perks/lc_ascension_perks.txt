@@ -1,0 +1,29 @@
+lc_ap_shared_destiny = {
+    on_enabled = {
+        hidden_effect = {
+            country_event = { id = action.446 }
+        }
+    }
+
+    modifier = {
+        monthly_loyalty_from_subjects = 100
+        #pop_growth_speed = 10
+    }
+
+    potential = {
+        NOR = {
+            has_valid_civic = civic_fanatic_purifiers
+            has_valid_civic = civic_hive_devouring_swarm
+            has_valid_civic = civic_inwards_perfection
+            has_valid_civic = civic_machine_terminator
+        }
+        NOT = {
+            has_ascension_perk = ap_shared_destiny
+            has_ascension_perk = lc_ap_shared_destiny
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}

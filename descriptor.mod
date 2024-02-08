@@ -1,8 +1,7 @@
-version="3.*"
+version="1.6"
 tags={
 	"Balance"
 }
 name="Lot_Cheat"
-picture="thumbnail.png"
-supported_version="3.2.2"
-remote_file_id="2737834244"
+supported_version="3.10.*"
+remote_file_id="2839671667"

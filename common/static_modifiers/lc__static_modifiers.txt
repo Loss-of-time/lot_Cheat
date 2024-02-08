@@ -1,0 +1,39 @@
+lc_mod_shared_destiny = {
+    # 这个效果为什么没有生效
+    divided_patrongage_max_subjects = 100
+}
+
+lc_mod_construct_speed = {
+    megastructure_build_speed_mult = 10
+    planet_building_build_speed_mult = 10
+    planet_colony_development_speed_mult = 10
+    planet_decision_enact_speed_mult = 10
+    planet_clear_blocker_speed_mult = 10
+    terraform_speed_mult = 10
+}
+
+lc_mod_army_building_speed = {
+    planet_army_build_speed_mult = 10
+    starbase_shipyard_build_speed_mult = 10
+    shipsize_starbase_outpost_build_speed_mult = 10
+    starbase_upgrade_speed_mult = 10
+    starbase_building_build_speed_mult = 10
+    starbase_module_build_speed_mult = 10
+}
+
+lc_mod_ship_shift = {
+    #SHIP_BASE_SPEED_MULT = 10
+    SHIP_SPEED_MULT = 10
+    SHIP_INTERSTELLAR_SPEED_MULT = 10
+    SHIP_WINDDOWN_MULT = -0.99
+    SHIP_WINDUP_MULT = -0.99
+}
+
+lc_mod_tentime_other = {
+    COUNTRY_SUBJECT_INTEGRATION_SPEED_ADD = 10
+    FIRST_CONTACT_SPEED_MULT = 10
+    POP_PURGE_SPEED = 10
+    army_damage_mult = 10
+    ship_orbital_bombardment_mult = 10
+    species_leader_exp_gain = 10
+}

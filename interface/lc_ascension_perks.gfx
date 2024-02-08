@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_lc_ap_shared_destiny"
+        texturefile = "gfx/GFX_lc_ap_shared_destiny.dds"
+        alwaystransparent = yes
+    }
+}

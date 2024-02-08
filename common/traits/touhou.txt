@@ -1,0 +1,14 @@
+trait_eternal = {
+	cost = 1
+	icon = "gfx/trait_eternal.dds"
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	immortal_leaders = yes
+	modifier = {
+		species_leader_exp_gain = -0.25
+		pop_growth_speed = -0.10
+	}
+}
