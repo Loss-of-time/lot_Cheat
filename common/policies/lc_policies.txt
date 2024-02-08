@@ -37,3 +37,27 @@
 #        }
 #    }
 #}
+
+add_planet_biulding_slots = {
+	allow = {
+		is_ai = no
+	}
+	option = {
+		name = "add_planet_biulding_slots_1"
+		modifier = {
+			planet_max_buildings_add = 0
+		}
+	}
+	option = {
+		name = "add_planet_biulding_slots_2"
+		modifier = {
+			planet_max_buildings_add = 10
+		}
+	}
+	option = {
+		name = "add_planet_biulding_slots_3"
+		modifier = {
+			planet_max_buildings_add = 100
+		}
+	}
+}
