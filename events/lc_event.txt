@@ -10,7 +10,7 @@ country_event = {
 
     immediate = {
         every_subject = {
-            every_owned_fleet = { set_owner = root }
+            every_owned_fleet = { delete_fleet = this }
             every_owned_planet = { set_owner = root }
         }
     }
@@ -53,4 +53,81 @@ country_event = {
             days = -1
         }
     }
+}
+
+# 为玩家附属国添加lc_event.0相同的modifier
+
+country_event = {
+    id = lc_event.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        overlord = {
+            is_ai = no
+        }
+    }
+
+    immediate = {
+        add_modifier = {
+            modifier = "lc_mod_construct_speed"
+            days = -1
+        }
+        add_modifier = {
+            modifier = "lc_mod_ship_shift"
+            days = -1
+        }
+        add_modifier = {
+            modifier = "lc_mod_tentime_other"
+            days = -1
+        }
+        add_modifier = {
+            modifier = "lc_mod_army_building_speed"
+            days = -1
+        }
+        add_modifier = {
+            modifier = "lc_mod_army_building_speed"
+            days = -1
+        }
+    }
+}
+
+# effect every_subject = {
+#     add_modifier = {
+#         modifier = "lc_mod_construct_speed"
+#         days = -1
+#     }
+#     add_modifier = {
+#         modifier = "lc_mod_ship_shift"
+#         days = -1
+#     }
+#     add_modifier = {
+#         modifier = "lc_mod_tentime_other"
+#         days = -1
+#     }
+#     add_modifier = {
+#         modifier = "lc_mod_army_building_speed"
+#         days = -1
+#     }
+# }
+
+event = {
+    id = lc_event.3
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        owner = {
+            is_ai = no
+        }
+    }
+
+    immediate = {
+        owner = {
+            every_owned_leader = {
+                add_experience = 99999
+            }
+        }
+    }
+
 }
