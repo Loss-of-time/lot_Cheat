@@ -1,0 +1,15 @@
+NGameplay = {
+    # 增加海军上限
+    NAVAL_CAPACITY_MAX = 999999
+    COMMAND_LIMIT_MAX = 65536
+    COMMAND_LIMIT_BASE = 65536
+
+    # 加速联邦升级
+    FEDERATION_COHESION_TO_XP			= 0.5	# cohesion to xp conversion
+    FEDERATION_COHESION_RANGE			= 300
+    FEDERATION_ENVOY_BASE_EFFECT		= 3.0	# envoys base effect on cohesion
+
+    # 快速重新部署
+    REINFORCE_MIA_TIME_MULT = 0.01 # Used to customize the duration of reinforcement times. Expected to be > 0
+    MIA_TIME_MULT = 0.01
+}

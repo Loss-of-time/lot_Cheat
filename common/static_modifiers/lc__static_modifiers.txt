@@ -1,10 +1,5 @@
-lc_mod_shared_destiny = {
-    # 这个效果为什么没有生效
-    divided_patrongage_max_subjects = 100
-}
-
 lc_mod_construct_speed = {
-    megastructure_build_speed_mult = 10
+    megastructure_build_speed_mult = 20
     planet_building_build_speed_mult = 10
     planet_colony_development_speed_mult = 10
     planet_decision_enact_speed_mult = 10
@@ -22,18 +17,26 @@ lc_mod_army_building_speed = {
 }
 
 lc_mod_ship_shift = {
-    #SHIP_BASE_SPEED_MULT = 10
+    SHIP_BASE_SPEED_MULT = 10
     SHIP_SPEED_MULT = 10
     SHIP_INTERSTELLAR_SPEED_MULT = 10
-    SHIP_WINDDOWN_MULT = -0.99
-    SHIP_WINDUP_MULT = -0.99
+    SHIP_WINDDOWN_MULT = -2
+    SHIP_WINDUP_MULT = -2
 }
 
 lc_mod_tentime_other = {
     COUNTRY_SUBJECT_INTEGRATION_SPEED_ADD = 10
     FIRST_CONTACT_SPEED_MULT = 10
-    POP_PURGE_SPEED = 10
     army_damage_mult = 10
     ship_orbital_bombardment_mult = 10
-    species_leader_exp_gain = 10
+    leaders_upkeep_mult = -0.9
+    negative_traits_leader = -10
+    leader_trait_selection_options_add = 3
+    planet_max_buildings_add = 10
+
+    intel_decryption_add = 10
+    add_base_country_intel = 10
+    spy_network_daily_value_mult = 10
+    operations_cost_mult = -0.9
+    espionage_operation_difficulty_add = -10
 }

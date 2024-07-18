@@ -3,5 +3,5 @@ tags={
 	"Balance"
 }
 name="Lot_Cheat"
-supported_version="3.10.*"
+supported_version="4.*.*"
 remote_file_id="2839671667"

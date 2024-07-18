@@ -1,15 +1,13 @@
-	 tech_imim1234 = {
-	 	cost = 20000
-	 	cost_per_level = 2000
-	 	tier = @repeatableTechTier
-	 	area = society
-	 	levels = 10
-	 	category = { statecraft }
-	 	modifier = {
-	 		ascension_perks_add = 1
-	 	}
-		
-	 	weight = 25
-		
-	 	prerequisites = {"tech_ascension_theory"}
-	 }
+tech_imim1234 = {
+	cost = 20000
+	cost_per_level = 2000
+	tier = @repeatableTechTier
+	area = society
+	levels = 10
+	category = { statecraft }
+	modifier = {
+		ascension_perks_add = 1
+	}
+	weight = 25
+	prerequisites = {"tech_ascension_theory"}
+}
