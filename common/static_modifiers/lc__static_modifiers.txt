@@ -1,8 +1,3 @@
-lc_mod_shared_destiny = {
-    # 这个效果为什么没有生效
-    divided_patrongage_max_subjects = 100
-}
-
 lc_mod_construct_speed = {
     megastructure_build_speed_mult = 10
     planet_building_build_speed_mult = 10

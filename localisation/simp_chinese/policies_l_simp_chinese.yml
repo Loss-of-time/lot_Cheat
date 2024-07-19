@@ -9,8 +9,8 @@
  trait_eternal:0 "§M永恒存续§!"
  trait_eternal_desc:0 "§L该族群已然通过某些方式揭示了永生不朽的奥秘，然而，灵魂或肉身的长存久续带来的效果并不总是积极的，即便那些问题在后能够被修复和弥补。且除此之外，他们仍会由于受到暴力伤害而死亡。§!"
 
- lc_event.0.name:0 "吞并所有附庸"
- lc_event.0.desc:0 "吞并所有附庸"
+ lc_event.0.name:0 "刪除所有附庸"
+ lc_event.0.desc:0 "刪除所有附庸"
  lc_event.0.a:0 "了解"
 
  lc_ap_shared_destiny: "§Y共同命运§!"
