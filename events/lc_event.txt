@@ -56,7 +56,6 @@ country_event = {
 }
 
 # 为玩家附属国添加lc_event.0相同的modifier
-
 country_event = {
     id = lc_event.2
     hide_window = yes
@@ -111,5 +110,4 @@ event = {
             }
         }
     }
-
 }
