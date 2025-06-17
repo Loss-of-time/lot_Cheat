@@ -1,38 +1,3 @@
-# decision_pop_growth = {
-# 	owned_planets_only = yes
-# 	sound = event_default_02
-# 	potential = {
-# 		NOT = {
-# 			has_modifier = pop_growth_modifier
-# 		}
-# 	}
-# 	allow = {
-# 	}
-# 	effect = {
-# 		add_modifier = {
-# 			modifier = "pop_growth_modifier"
-# 			days = -1
-# 		}
-# 	}
-# 	ai_weight = {
-# 		weight = 0
-# 	}
-# }
-
-# decision_remove_pop_growth = {
-# 	owned_planets_only = yes
-# 	sound = event_default_02
-# 	potential = {
-# 		has_modifier = pop_growth_modifier
-# 	}
-# 	effect = {
-# 		remove_modifier = pop_growth_modifier
-# 	}
-# 	ai_weight = {
-# 		weight = 0
-# 	}
-# }
-
 decision_create_pop = {
 	owned_planets_only = yes
 	sound = event_administrative_work
