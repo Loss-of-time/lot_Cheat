@@ -2,67 +2,102 @@ decision_create_pop = {
 	owned_planets_only = yes
 	sound = event_administrative_work
 	icon = decision_resources
-
 	resources = {
 		category = decisions
 		cost = {
 			alloys = 100
 		}
 	}
-
 	potential = {
-
 	}
-
 	allow = {
 		free_housing > 100
 	}
-
 	effect = {
 		create_pop = {
 			species = owner_species
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
 }
 
-
 decision_create_ten_pop = {
 	owned_planets_only = yes
 	sound = event_administrative_work
 	icon = decision_resources
-
 	resources = {
 		category = decisions
 		cost = {
 			alloys = 1000
 		}
 	}
-
 	potential = {
-
 	}
-
 	allow = {
 		free_housing > 1000
 	}
-
 	effect = {
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
-		create_pop = { species = owner_species }
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
+		create_pop = {
+			species = owner_species
+		}
 	}
+	ai_weight = {
+		weight = 0
+	}
+}
 
+decision_abort_colony = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_city_ruins
+	enactment_time = 5
+	resources = {
+		category = decisions
+		cost = {
+			unity = 200
+		}
+	}
+	potential = {
+		exists = owner
+		owner = {
+			is_ai = no
+		}
+	}
+	allow = {
+		is_capital = no
+	}
+	effect = {
+		destroy_colony = yes
+	}
 	ai_weight = {
 		weight = 0
 	}
