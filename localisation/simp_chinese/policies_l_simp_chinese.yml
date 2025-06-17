@@ -26,8 +26,15 @@
  lc_mod_ship_shift_desc: "提升舰船的移动速度。"
  lc_mod_tentime_other: "其他十倍修正"
  lc_mod_tentime_other_desc: "应用其他相关的十倍速度修正。"
-
  decision_create_pop: "创建人口"
  decision_create_pop_desc: "消耗100合金并加快生成100人口。"
  decision_create_ten_pop: "创建10人口"
  decision_create_ten_pop_desc: "消耗1000合金并加快生成1000人口。"
+
+ edict_lc_destory_ai_empire:0 "摧毁AI帝国"
+ edict_lc_destory_ai_empire_desc:0 "发起一个决议来摧毁所有非堕落帝国的AI国家。这将完全消灭它们的舰队和殖民地。"
+
+ lc_event.4.name:0 "摧毁AI帝国"
+ lc_event.4.desc:0 "我们现在可以选择是否要摧毁所有AI帝国。这个行动将会彻底消灭它们的舰队和殖民地，但不会影响堕落帝国和天灾。"
+ lc_event.4.a:0 "是的，摧毁所有AI帝国"
+ lc_event.4.b:0 "不，取消这个行动"

@@ -1,113 +1,140 @@
 namespace = lc_event
-
 country_event = {
-    id = lc_event.0
-    title = lc_event.0.name
-    desc = lc_event.0.desc
-    picture = GFX_evt_analyzing_artifacts
-    location = root
-    show_sound = select_click
-
-    immediate = {
-        every_subject = {
-            every_owned_fleet = { destroy_fleet = this}
-            every_owned_planet = { destroy_colony = yes }
-        }
-    }
-
-    is_triggered_only = yes
-
-    option = {
-        name = lc_event.0.a
-    }
+	id = lc_event.0
+	title = lc_event.0.name
+	desc = lc_event.0.desc
+	picture = GFX_evt_analyzing_artifacts
+	location = root
+	show_sound = select_click
+	immediate = {
+		every_subject = {
+			every_owned_fleet = {
+				destroy_fleet = this
+			}
+			every_owned_planet = {
+				destroy_colony = yes
+			}
+		}
+	}
+	is_triggered_only = yes
+	option = {
+		name = lc_event.0.a
+	}
 }
 
 country_event = {
-    id = lc_event.1
-    hide_window = yes
-    is_triggered_only = yes
-
-    trigger = {
-        is_ai = no
-    }
-
-    immediate = {
-        add_modifier = {
-            modifier = "lc_mod_construct_speed"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_ship_shift"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_tentime_other"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_army_building_speed"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_army_building_speed"
-            days = -1
-        }
-    }
+	id = lc_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		add_modifier = {
+			modifier = "lc_mod_construct_speed"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_ship_shift"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_tentime_other"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_army_building_speed"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_army_building_speed"
+			days = -1
+		}
+	}
 }
 
 # 为玩家附属国添加lc_event.0相同的modifier
 country_event = {
-    id = lc_event.2
-    hide_window = yes
-    is_triggered_only = yes
-
-    trigger = {
-        overlord = {
-            is_ai = no
-        }
-    }
-
-    immediate = {
-        add_modifier = {
-            modifier = "lc_mod_construct_speed"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_ship_shift"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_tentime_other"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_army_building_speed"
-            days = -1
-        }
-        add_modifier = {
-            modifier = "lc_mod_army_building_speed"
-            days = -1
-        }
-    }
+	id = lc_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		overlord = {
+			is_ai = no
+		}
+	}
+	immediate = {
+		add_modifier = {
+			modifier = "lc_mod_construct_speed"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_ship_shift"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_tentime_other"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_army_building_speed"
+			days = -1
+		}
+		add_modifier = {
+			modifier = "lc_mod_army_building_speed"
+			days = -1
+		}
+	}
 }
 
 # 为玩家雇佣的领袖添加经验
 event = {
-    id = lc_event.3
-    hide_window = yes
-    is_triggered_only = yes
+	id = lc_event.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		owner = {
+			is_ai = no
+		}
+	}
+	immediate = {
+		owner = {
+			every_owned_leader = {
+				add_experience = 5000000
+			}
+		}
+	}
+}
 
-    trigger = {
-        owner = {
-            is_ai = no
-        }
-    }
-
-    immediate = {
-        owner = {
-            every_owned_leader = {
-                add_experience = 5000000
-            }
-        }
-    }
+# 摧毁AI帝国
+country_event = {
+	id = lc_event.4
+	title = lc_event.4.name
+	desc = lc_event.4.desc
+	is_triggered_only = yes
+	trigger = {
+		owner = {
+			is_ai = no
+		}
+	}
+	picture = GFX_evt_mining_station
+	option = {
+		name = lc_event.4.a
+		every_country = {
+			limit = {
+				is_ai = yes
+				is_crisis_faction = no
+				is_fallen_empire = no
+			}
+			every_owned_fleet = {
+				destroy_fleet = this
+			}
+			every_owned_planet = {
+				destroy_colony = yes
+			}
+		}
+	}
+	option = {
+		name = lc_event.4.b
+	}
 }

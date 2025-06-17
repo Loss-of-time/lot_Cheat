@@ -1,0 +1,12 @@
+lc_destory_ai_empire = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	potential = {
+		is_ai = no
+	}
+	effect = {
+		country_event = {
+			id = lc_event.4
+		}
+	}
+}
