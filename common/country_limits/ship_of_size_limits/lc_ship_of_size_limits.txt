@@ -32,7 +32,8 @@ titan_ships_limit = {
 		cosmo_crisis_stinger
 	}
 
-	base = 65536 # 1 * titan's size_multiplier
+	base = 65536
+	max = 65536
 	naval_cap_fraction = 0.08
 
 	show = {
@@ -50,7 +51,7 @@ colossus_ships_limit = {
 		colossus
 	}
 
-	base = 65536 # 1 * colossus's size_multiplier
+	base = 65536
 	show = {
 		is_scope_valid = yes
 		has_technology = tech_colossus
@@ -61,7 +62,8 @@ juggernaut_ships_limit = {
 	ship_types = {
 		juggernaut
 	}
-	base = 65536 # 1 * juggernaut's size_multiplier
+	base = 65536
+	max = 65536
 	show = {
 		is_scope_valid = yes
 		has_technology = tech_juggernaut
